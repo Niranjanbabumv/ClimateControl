@@ -2,7 +2,6 @@
 # IoT Climate Control Sample
 IoT reference sample for Climate Control
 
-![Bluemix Deployments](https://deployment-tracker.mybluemix.net/stats/45924395dd671b4771c8fb3bc695b5df/badge.svg)
 
 ## Deploy the app on Bluemix
 You can deploy your own instance to Bluemix.
@@ -12,13 +11,8 @@ To do this, you can either use the [_Create Toolchain_](http://ibm.biz/BdiKSi) b
 Use the *"Create Toolchain"* button below, to deploy this app to Bluemix using IBM DevOps.
 If you are in the US South region, use the below button
 
-[![Create Toolchain](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](http://ibm.biz/BdiKSi)
-
 For other regions, please click the below *Deploy to Bluemix*
-
-[![Deploy to Bluemix](https://console.ng.bluemix.net/devops/setup/deploy/button_x2.png)](http://ibm.biz/Bdi8VY)
-
-### Manually deploying to Bluemix.
+## Manually deploying to Bluemix.
 
 1. Create a Bluemix Account.
 
@@ -29,7 +23,7 @@ For other regions, please click the below *Deploy to Bluemix*
 3. Clone the app to your local environment from your terminal using the following command:
 
   ```
-  git clone https://github.com/ibm-watson-iot/iot-climate-control-sample.git
+  git clone https://github.com/Niranjanbabumv/ClimateControl.git
   ```
 
 4. `cd` into this newly created directory.
@@ -69,9 +63,6 @@ For other regions, please click the below *Deploy to Bluemix*
 
 You now have your own instance of the app running on Bluemix.  
 
-# Privacy notice
-
-This web application includes code to track deployments to [IBM Bluemix](https://www.bluemix.net/) and other Cloud Foundry platforms. The following information is sent to a [Deployment Tracker](https://github.com/cloudant-labs/deployment-tracker) service on each deployment:
 
 * Application Name (`application_name`)
 * Space ID (`space_id`)
@@ -79,10 +70,7 @@ This web application includes code to track deployments to [IBM Bluemix](https:/
 * Application URIs (`application_uris)``
 
 This data is collected from the `VCAP_APPLICATION` environment variable in IBM Bluemix and other Cloud Foundry platforms. This data is used by IBM to track metrics around deployments of sample applications to IBM Bluemix to measure the usefulness of our examples, so that we can continuously improve the content we offer to you. Only deployments of sample applications that include code to ping the Deployment Tracker service will be tracked.
-
-## Disabling deployment tracking
-
-Deployment tracking can be disabled by removing the require("cf-deployment-tracker-client").track(); line from the end of the 'main.js' file.
+.
 
 ## Useful links
 [Install Node.js]: https://nodejs.org/en/download/
